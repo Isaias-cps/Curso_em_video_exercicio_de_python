@@ -8,12 +8,12 @@ term1 = 0
 term2 = 1
 print(30 * '~')
 print(f'{term1} → {term2 }', end='')
-cal = 3
-while cal <= number:
+calc = 3
+while calc <= number:
     term3 = term1 + term2
     print(f' → {term3}', end='')
     term1 = term2
     term2 = term3
-    cal +=1
+    calc +=1
 print('→Fim')
 
